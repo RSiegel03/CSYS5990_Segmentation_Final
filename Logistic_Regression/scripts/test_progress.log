@@ -1,0 +1,16 @@
+Batch: 25175, loss 1.00, dice 0
+
+=== Evaluation Metrics ===
+              precision    recall  f1-score   support
+
+           0     0.9727    1.0000    0.9861       249
+           1     0.0000    0.0000    0.0000         7
+
+    accuracy                         0.9727       256
+   macro avg     0.4863    0.5000    0.4931       256
+weighted avg     0.9461    0.9727    0.9592       256
+
+Confusion Matrix:
+[[249   0]
+ [  7   0]]
+Mean Dice Score: 0
