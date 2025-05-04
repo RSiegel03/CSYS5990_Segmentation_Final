@@ -1,1481 +1,0 @@
-+ conda activate MLFin_env
-+ local cmd=activate
-+ case "$cmd" in
-+ __conda_activate activate MLFin_env
-+ '[' -n '' ']'
-+ local ask_conda
-++ PS1='(base) '
-++ __conda_exe shell.posix activate MLFin_env
-++ '[' -n '' ']'
-++ /users/r/d/rdsiegel/miniconda3/bin/conda shell.posix activate MLFin_env
-+ ask_conda='unset _CE_M
-unset _CE_CONDA
-PS1='\''(MLFin_env) '\''
-export PATH='\''/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin:/users/r/d/rdsiegel/miniconda3/condabin:/users/r/d/rdsiegel/.local/bin:/users/r/d/rdsiegel/bin:/gpfs1/sw/rh9/pkgs/vacc-usertools/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/lpp/mmfs/bin:/users/r/d/rdsiegel/.local/bin:/users/r/d/rdsiegel/bin'\''
-export CONDA_PREFIX='\''/users/r/d/rdsiegel/miniconda3/envs/MLFin_env'\''
-export CONDA_SHLVL='\''2'\''
-export CONDA_DEFAULT_ENV='\''MLFin_env'\''
-export CONDA_PROMPT_MODIFIER='\''(MLFin_env) '\''
-export CONDA_PREFIX_1='\''/users/r/d/rdsiegel/miniconda3'\''
-export CONDA_EXE='\''/users/r/d/rdsiegel/miniconda3/bin/conda'\''
-export CONDA_PYTHON_EXE='\''/users/r/d/rdsiegel/miniconda3/bin/python'\''
-. "/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/activate-binutils_linux-64.sh"
-. "/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/activate-gcc_linux-64.sh"
-. "/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/activate-gxx_linux-64.sh"
-. "/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/libglib_activate.sh"
-. "/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/~cuda-nvcc_activate.sh"'
-+ eval 'unset _CE_M
-unset _CE_CONDA
-PS1='\''(MLFin_env) '\''
-export PATH='\''/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin:/users/r/d/rdsiegel/miniconda3/condabin:/users/r/d/rdsiegel/.local/bin:/users/r/d/rdsiegel/bin:/gpfs1/sw/rh9/pkgs/vacc-usertools/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/lpp/mmfs/bin:/users/r/d/rdsiegel/.local/bin:/users/r/d/rdsiegel/bin'\''
-export CONDA_PREFIX='\''/users/r/d/rdsiegel/miniconda3/envs/MLFin_env'\''
-export CONDA_SHLVL='\''2'\''
-export CONDA_DEFAULT_ENV='\''MLFin_env'\''
-export CONDA_PROMPT_MODIFIER='\''(MLFin_env) '\''
-export CONDA_PREFIX_1='\''/users/r/d/rdsiegel/miniconda3'\''
-export CONDA_EXE='\''/users/r/d/rdsiegel/miniconda3/bin/conda'\''
-export CONDA_PYTHON_EXE='\''/users/r/d/rdsiegel/miniconda3/bin/python'\''
-. "/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/activate-binutils_linux-64.sh"
-. "/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/activate-gcc_linux-64.sh"
-. "/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/activate-gxx_linux-64.sh"
-. "/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/libglib_activate.sh"
-. "/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/~cuda-nvcc_activate.sh"'
-++ unset _CE_M
-++ unset _CE_CONDA
-++ PS1='(MLFin_env) '
-++ export PATH=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin:/users/r/d/rdsiegel/miniconda3/condabin:/users/r/d/rdsiegel/.local/bin:/users/r/d/rdsiegel/bin:/gpfs1/sw/rh9/pkgs/vacc-usertools/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/lpp/mmfs/bin:/users/r/d/rdsiegel/.local/bin:/users/r/d/rdsiegel/bin
-++ PATH=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin:/users/r/d/rdsiegel/miniconda3/condabin:/users/r/d/rdsiegel/.local/bin:/users/r/d/rdsiegel/bin:/gpfs1/sw/rh9/pkgs/vacc-usertools/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/lpp/mmfs/bin:/users/r/d/rdsiegel/.local/bin:/users/r/d/rdsiegel/bin
-++ export CONDA_PREFIX=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env
-++ CONDA_PREFIX=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env
-++ export CONDA_SHLVL=2
-++ CONDA_SHLVL=2
-++ export CONDA_DEFAULT_ENV=MLFin_env
-++ CONDA_DEFAULT_ENV=MLFin_env
-++ export 'CONDA_PROMPT_MODIFIER=(MLFin_env) '
-++ CONDA_PROMPT_MODIFIER='(MLFin_env) '
-++ export CONDA_PREFIX_1=/users/r/d/rdsiegel/miniconda3
-++ CONDA_PREFIX_1=/users/r/d/rdsiegel/miniconda3
-++ export CONDA_EXE=/users/r/d/rdsiegel/miniconda3/bin/conda
-++ CONDA_EXE=/users/r/d/rdsiegel/miniconda3/bin/conda
-++ export CONDA_PYTHON_EXE=/users/r/d/rdsiegel/miniconda3/bin/python
-++ CONDA_PYTHON_EXE=/users/r/d/rdsiegel/miniconda3/bin/python
-++ . /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/activate-binutils_linux-64.sh
-+++ '[' 0 = 1 ']'
-+++ echo x86_64-conda-linux-gnu
-+++ grep powerpc
-+++ echo x86_64-conda-linux-gnu
-+++ grep s390x
-+++ GOLD_USED=ld.gold
-+++ _tc_activation activate x86_64-conda-linux-gnu- addr2line ar as c++filt elfedit gprof ld ld.gold nm objcopy objdump ranlib readelf size strings strip
-+++ local act_nature=activate
-+++ shift
-+++ local tc_prefix=x86_64-conda-linux-gnu-
-+++ shift
-+++ local thing
-+++ local newval
-+++ local from
-+++ local to
-+++ local pass
-+++ '[' activate = activate ']'
-+++ from=
-+++ to=CONDA_BACKUP_
-+++ for pass in check apply
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-addr2line
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-addr2line -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-as
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-as -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++filt
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++filt -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-elfedit
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-elfedit -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gprof
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gprof -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld.gold
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld.gold -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-nm
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-nm -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objcopy
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objcopy -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objdump
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objdump -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-readelf
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-readelf -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-size
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-size -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strings
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strings -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -a check = check ']'
-+++ '[' check = apply ']'
-+++ for pass in check apply
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-addr2line
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-addr2line -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo addr2line
-++++ tr a-z+-. A-ZX__
-+++ thing=ADDR2LINE
-+++ eval 'oldval=$ADDR2LINE'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_ADDR2LINE
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-addr2line ']'
-+++ eval export ''\''ADDR2LINE=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-addr2line'\'''
-++++ export ADDR2LINE=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-addr2line
-++++ ADDR2LINE=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-addr2line
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo ar
-++++ tr a-z+-. A-ZX__
-+++ thing=AR
-+++ eval 'oldval=$AR'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_AR
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar ']'
-+++ eval export ''\''AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar'\'''
-++++ export AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar
-++++ AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-as
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-as -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo as
-++++ tr a-z+-. A-ZX__
-+++ thing=AS
-+++ eval 'oldval=$AS'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_AS
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-as ']'
-+++ eval export ''\''AS=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-as'\'''
-++++ export AS=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-as
-++++ AS=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-as
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++filt
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++filt -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo c++filt
-++++ tr a-z+-. A-ZX__
-+++ thing=CXXFILT
-+++ eval 'oldval=$CXXFILT'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CXXFILT
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++filt ']'
-+++ eval export ''\''CXXFILT=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++filt'\'''
-++++ export CXXFILT=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++filt
-++++ CXXFILT=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++filt
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-elfedit
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-elfedit -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo elfedit
-++++ tr a-z+-. A-ZX__
-+++ thing=ELFEDIT
-+++ eval 'oldval=$ELFEDIT'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_ELFEDIT
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-elfedit ']'
-+++ eval export ''\''ELFEDIT=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-elfedit'\'''
-++++ export ELFEDIT=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-elfedit
-++++ ELFEDIT=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-elfedit
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gprof
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gprof -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo gprof
-++++ tr a-z+-. A-ZX__
-+++ thing=GPROF
-+++ eval 'oldval=$GPROF'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_GPROF
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gprof ']'
-+++ eval export ''\''GPROF=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gprof'\'''
-++++ export GPROF=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gprof
-++++ GPROF=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gprof
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo ld
-++++ tr a-z+-. A-ZX__
-+++ thing=LD
-+++ eval 'oldval=$LD'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_LD
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld ']'
-+++ eval export ''\''LD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld'\'''
-++++ export LD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld
-++++ LD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld.gold
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld.gold -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo ld.gold
-++++ tr a-z+-. A-ZX__
-+++ thing=LD_GOLD
-+++ eval 'oldval=$LD_GOLD'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_LD_GOLD
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld.gold ']'
-+++ eval export ''\''LD_GOLD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld.gold'\'''
-++++ export LD_GOLD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld.gold
-++++ LD_GOLD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld.gold
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-nm
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-nm -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo nm
-++++ tr a-z+-. A-ZX__
-+++ thing=NM
-+++ eval 'oldval=$NM'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_NM
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-nm ']'
-+++ eval export ''\''NM=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-nm'\'''
-++++ export NM=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-nm
-++++ NM=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-nm
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objcopy
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objcopy -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo objcopy
-++++ tr a-z+-. A-ZX__
-+++ thing=OBJCOPY
-+++ eval 'oldval=$OBJCOPY'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_OBJCOPY
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objcopy ']'
-+++ eval export ''\''OBJCOPY=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objcopy'\'''
-++++ export OBJCOPY=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objcopy
-++++ OBJCOPY=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objcopy
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objdump
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objdump -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo objdump
-++++ tr a-z+-. A-ZX__
-+++ thing=OBJDUMP
-+++ eval 'oldval=$OBJDUMP'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_OBJDUMP
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objdump ']'
-+++ eval export ''\''OBJDUMP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objdump'\'''
-++++ export OBJDUMP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objdump
-++++ OBJDUMP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-objdump
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo ranlib
-++++ tr a-z+-. A-ZX__
-+++ thing=RANLIB
-+++ eval 'oldval=$RANLIB'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_RANLIB
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib ']'
-+++ eval export ''\''RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib'\'''
-++++ export RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib
-++++ RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-readelf
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-readelf -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo readelf
-++++ tr a-z+-. A-ZX__
-+++ thing=READELF
-+++ eval 'oldval=$READELF'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_READELF
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-readelf ']'
-+++ eval export ''\''READELF=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-readelf'\'''
-++++ export READELF=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-readelf
-++++ READELF=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-readelf
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-size
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-size -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo size
-++++ tr a-z+-. A-ZX__
-+++ thing=SIZE
-+++ eval 'oldval=$SIZE'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_SIZE
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-size ']'
-+++ eval export ''\''SIZE=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-size'\'''
-++++ export SIZE=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-size
-++++ SIZE=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-size
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strings
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strings -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo strings
-++++ tr a-z+-. A-ZX__
-+++ thing=STRINGS
-+++ eval 'oldval=$STRINGS'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_STRINGS
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strings ']'
-+++ eval export ''\''STRINGS=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strings'\'''
-++++ export STRINGS=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strings
-++++ STRINGS=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strings
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo strip
-++++ tr a-z+-. A-ZX__
-+++ thing=STRIP
-+++ eval 'oldval=$STRIP'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_STRIP
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip ']'
-+++ eval export ''\''STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip'\'''
-++++ export STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip
-++++ STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip
-+++ return 0
-+++ '[' 0 -ne 0 ']'
-+++ '[' 0 = 1 ']'
-++ . /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/activate-gcc_linux-64.sh
-+++ '[' 0 = 1 ']'
-+++ CFLAGS_USED='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ DEBUG_CFLAGS_USED='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ CPPFLAGS_USED='-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ DEBUG_CPPFLAGS_USED='-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ LDFLAGS_USED='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib'
-+++ CMAKE_PREFIX_PATH_USED=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr
-+++ '[' 0 = 1 ']'
-+++ _CONDA_PYTHON_SYSCONFIGDATA_NAME_USED=_sysconfigdata_x86_64_conda_cos7_linux_gnu
-+++ '[' -n _sysconfigdata_x86_64_conda_cos7_linux_gnu ']'
-+++ '[' -n '' ']'
-+++ _CMAKE_ARGS='-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib'
-+++ _CMAKE_ARGS='-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip'
-+++ _CMAKE_ARGS='-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'
-+++ '[' 0 = 1 ']'
-+++ '[' '' = 1 ']'
-+++ _tc_activation activate x86_64-conda-linux-gnu- HOST,x86_64-conda-linux-gnu BUILD,x86_64-conda-linux-gnu cc cpp gcc gcc-ar gcc-nm gcc-ranlib 'CPPFLAGS,-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' 'CFLAGS,-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' 'LDFLAGS,-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib' 'DEBUG_CPPFLAGS,-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' 'DEBUG_CFLAGS,-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' CMAKE_PREFIX_PATH,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr _CONDA_PYTHON_SYSCONFIGDATA_NAME,_sysconfigdata_x86_64_conda_cos7_linux_gnu CONDA_BUILD_SYSROOT,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot CONDA_BUILD_CROSS_COMPILATION, CC_FOR_BUILD,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc build_alias,x86_64-conda-linux-gnu host_alias,x86_64-conda-linux-gnu 'CMAKE_ARGS,-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'
-+++ local act_nature=activate
-+++ shift
-+++ local tc_prefix=x86_64-conda-linux-gnu-
-+++ shift
-+++ local thing
-+++ local newval
-+++ local from
-+++ local to
-+++ local pass
-+++ '[' activate = activate ']'
-+++ from=
-+++ to=CONDA_BACKUP_
-+++ for pass in check apply
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo HOST,x86_64-conda-linux-gnu
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=x86_64-conda-linux-gnu
-++++ echo HOST,x86_64-conda-linux-gnu
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=HOST
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo BUILD,x86_64-conda-linux-gnu
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=x86_64-conda-linux-gnu
-++++ echo BUILD,x86_64-conda-linux-gnu
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=BUILD
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-++++ echo cc
-++++ tr a-z+- A-ZX_
-+++ thing=CC
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cpp
-++++ echo cpp
-++++ tr a-z+- A-ZX_
-+++ thing=CPP
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cpp -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc
-++++ echo gcc
-++++ tr a-z+- A-ZX_
-+++ thing=GCC
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ar
-++++ echo gcc-ar
-++++ tr a-z+- A-ZX_
-+++ thing=GCC_AR
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ar -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-nm
-++++ echo gcc-nm
-++++ tr a-z+- A-ZX_
-+++ thing=GCC_NM
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-nm -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ranlib
-++++ echo gcc-ranlib
-++++ tr a-z+- A-ZX_
-+++ thing=GCC_RANLIB
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'CPPFLAGS,-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'CPPFLAGS,-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CPPFLAGS
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'CFLAGS,-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'CFLAGS,-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CFLAGS
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'LDFLAGS,-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib'
-++++ echo 'LDFLAGS,-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=LDFLAGS
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'DEBUG_CPPFLAGS,-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'DEBUG_CPPFLAGS,-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=DEBUG_CPPFLAGS
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'DEBUG_CFLAGS,-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'DEBUG_CFLAGS,-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=DEBUG_CFLAGS
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo CMAKE_PREFIX_PATH,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr
-++++ echo CMAKE_PREFIX_PATH,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CMAKE_PREFIX_PATH
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo _CONDA_PYTHON_SYSCONFIGDATA_NAME,_sysconfigdata_x86_64_conda_cos7_linux_gnu
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=_sysconfigdata_x86_64_conda_cos7_linux_gnu
-++++ echo _CONDA_PYTHON_SYSCONFIGDATA_NAME,_sysconfigdata_x86_64_conda_cos7_linux_gnu
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=_CONDA_PYTHON_SYSCONFIGDATA_NAME
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo CONDA_BUILD_SYSROOT,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot
-++++ echo CONDA_BUILD_SYSROOT,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CONDA_BUILD_SYSROOT
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo CONDA_BUILD_CROSS_COMPILATION,
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=
-++++ echo CONDA_BUILD_CROSS_COMPILATION,
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CONDA_BUILD_CROSS_COMPILATION
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo CC_FOR_BUILD,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-++++ echo CC_FOR_BUILD,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CC_FOR_BUILD
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo build_alias,x86_64-conda-linux-gnu
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=x86_64-conda-linux-gnu
-++++ echo build_alias,x86_64-conda-linux-gnu
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=build_alias
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo host_alias,x86_64-conda-linux-gnu
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=x86_64-conda-linux-gnu
-++++ echo host_alias,x86_64-conda-linux-gnu
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=host_alias
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'CMAKE_ARGS,-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'
-++++ echo 'CMAKE_ARGS,-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CMAKE_ARGS
-+++ '[' check = apply ']'
-+++ for pass in check apply
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo HOST,x86_64-conda-linux-gnu
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=x86_64-conda-linux-gnu
-++++ echo HOST,x86_64-conda-linux-gnu
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=HOST
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$HOST'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_HOST
-+++ '[' -n x86_64-conda-linux-gnu ']'
-+++ eval export ''\''HOST=x86_64-conda-linux-gnu'\'''
-++++ export HOST=x86_64-conda-linux-gnu
-++++ HOST=x86_64-conda-linux-gnu
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo BUILD,x86_64-conda-linux-gnu
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=x86_64-conda-linux-gnu
-++++ echo BUILD,x86_64-conda-linux-gnu
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=BUILD
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$BUILD'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_BUILD
-+++ '[' -n x86_64-conda-linux-gnu ']'
-+++ eval export ''\''BUILD=x86_64-conda-linux-gnu'\'''
-++++ export BUILD=x86_64-conda-linux-gnu
-++++ BUILD=x86_64-conda-linux-gnu
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-++++ echo cc
-++++ tr a-z+- A-ZX_
-+++ thing=CC
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc -a apply = check ']'
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$CC'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CC
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc ']'
-+++ eval export ''\''CC=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc'\'''
-++++ export CC=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-++++ CC=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cpp
-++++ echo cpp
-++++ tr a-z+- A-ZX_
-+++ thing=CPP
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cpp -a apply = check ']'
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$CPP'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CPP
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cpp ']'
-+++ eval export ''\''CPP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cpp'\'''
-++++ export CPP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cpp
-++++ CPP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cpp
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc
-++++ echo gcc
-++++ tr a-z+- A-ZX_
-+++ thing=GCC
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc -a apply = check ']'
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$GCC'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_GCC
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc ']'
-+++ eval export ''\''GCC=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc'\'''
-++++ export GCC=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc
-++++ GCC=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ar
-++++ echo gcc-ar
-++++ tr a-z+- A-ZX_
-+++ thing=GCC_AR
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ar -a apply = check ']'
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$GCC_AR'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_GCC_AR
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ar ']'
-+++ eval export ''\''GCC_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ar'\'''
-++++ export GCC_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ar
-++++ GCC_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ar
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-nm
-++++ echo gcc-nm
-++++ tr a-z+- A-ZX_
-+++ thing=GCC_NM
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-nm -a apply = check ']'
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$GCC_NM'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_GCC_NM
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-nm ']'
-+++ eval export ''\''GCC_NM=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-nm'\'''
-++++ export GCC_NM=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-nm
-++++ GCC_NM=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-nm
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ranlib
-++++ echo gcc-ranlib
-++++ tr a-z+- A-ZX_
-+++ thing=GCC_RANLIB
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ranlib -a apply = check ']'
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$GCC_RANLIB'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_GCC_RANLIB
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ranlib ']'
-+++ eval export ''\''GCC_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ranlib'\'''
-++++ export GCC_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ranlib
-++++ GCC_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-gcc-ranlib
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'CPPFLAGS,-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'CPPFLAGS,-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CPPFLAGS
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$CPPFLAGS'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CPPFLAGS
-+++ '[' -n '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' ']'
-+++ eval export ''\''CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'\'''
-++++ export 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ CPPFLAGS='-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'CFLAGS,-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'CFLAGS,-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CFLAGS
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$CFLAGS'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CFLAGS
-+++ '[' -n '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' ']'
-+++ eval export ''\''CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'\'''
-++++ export 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ CFLAGS='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'LDFLAGS,-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib'
-++++ echo 'LDFLAGS,-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=LDFLAGS
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$LDFLAGS'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_LDFLAGS
-+++ '[' -n '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib' ']'
-+++ eval export ''\''LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib'\'''
-++++ export 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib'
-++++ LDFLAGS='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'DEBUG_CPPFLAGS,-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'DEBUG_CPPFLAGS,-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=DEBUG_CPPFLAGS
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$DEBUG_CPPFLAGS'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_DEBUG_CPPFLAGS
-+++ '[' -n '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' ']'
-+++ eval export ''\''DEBUG_CPPFLAGS=-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'\'''
-++++ export 'DEBUG_CPPFLAGS=-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ DEBUG_CPPFLAGS='-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'DEBUG_CFLAGS,-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'DEBUG_CFLAGS,-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=DEBUG_CFLAGS
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$DEBUG_CFLAGS'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_DEBUG_CFLAGS
-+++ '[' -n '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' ']'
-+++ eval export ''\''DEBUG_CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'\'''
-++++ export 'DEBUG_CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ DEBUG_CFLAGS='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo CMAKE_PREFIX_PATH,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr
-++++ echo CMAKE_PREFIX_PATH,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CMAKE_PREFIX_PATH
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$CMAKE_PREFIX_PATH'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CMAKE_PREFIX_PATH
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr ']'
-+++ eval export ''\''CMAKE_PREFIX_PATH=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr'\'''
-++++ export CMAKE_PREFIX_PATH=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr
-++++ CMAKE_PREFIX_PATH=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env:/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot/usr
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo _CONDA_PYTHON_SYSCONFIGDATA_NAME,_sysconfigdata_x86_64_conda_cos7_linux_gnu
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=_sysconfigdata_x86_64_conda_cos7_linux_gnu
-++++ echo _CONDA_PYTHON_SYSCONFIGDATA_NAME,_sysconfigdata_x86_64_conda_cos7_linux_gnu
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=_CONDA_PYTHON_SYSCONFIGDATA_NAME
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$_CONDA_PYTHON_SYSCONFIGDATA_NAME'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP__CONDA_PYTHON_SYSCONFIGDATA_NAME
-+++ '[' -n _sysconfigdata_x86_64_conda_cos7_linux_gnu ']'
-+++ eval export ''\''_CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos7_linux_gnu'\'''
-++++ export _CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos7_linux_gnu
-++++ _CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos7_linux_gnu
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo CONDA_BUILD_SYSROOT,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot
-++++ echo CONDA_BUILD_SYSROOT,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CONDA_BUILD_SYSROOT
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$CONDA_BUILD_SYSROOT'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CONDA_BUILD_SYSROOT
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot ']'
-+++ eval export ''\''CONDA_BUILD_SYSROOT=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot'\'''
-++++ export CONDA_BUILD_SYSROOT=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot
-++++ CONDA_BUILD_SYSROOT=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/x86_64-conda-linux-gnu/sysroot
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo CONDA_BUILD_CROSS_COMPILATION,
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=
-++++ echo CONDA_BUILD_CROSS_COMPILATION,
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CONDA_BUILD_CROSS_COMPILATION
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$CONDA_BUILD_CROSS_COMPILATION'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CONDA_BUILD_CROSS_COMPILATION
-+++ '[' -n '' ']'
-+++ eval unset '${from}${thing}'
-++++ unset CONDA_BUILD_CROSS_COMPILATION
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo CC_FOR_BUILD,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-++++ echo CC_FOR_BUILD,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CC_FOR_BUILD
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$CC_FOR_BUILD'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CC_FOR_BUILD
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc ']'
-+++ eval export ''\''CC_FOR_BUILD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc'\'''
-++++ export CC_FOR_BUILD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-++++ CC_FOR_BUILD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-cc
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo build_alias,x86_64-conda-linux-gnu
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=x86_64-conda-linux-gnu
-++++ echo build_alias,x86_64-conda-linux-gnu
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=build_alias
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$build_alias'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_build_alias
-+++ '[' -n x86_64-conda-linux-gnu ']'
-+++ eval export ''\''build_alias=x86_64-conda-linux-gnu'\'''
-++++ export build_alias=x86_64-conda-linux-gnu
-++++ build_alias=x86_64-conda-linux-gnu
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo host_alias,x86_64-conda-linux-gnu
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=x86_64-conda-linux-gnu
-++++ echo host_alias,x86_64-conda-linux-gnu
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=host_alias
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$host_alias'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_host_alias
-+++ '[' -n x86_64-conda-linux-gnu ']'
-+++ eval export ''\''host_alias=x86_64-conda-linux-gnu'\'''
-++++ export host_alias=x86_64-conda-linux-gnu
-++++ host_alias=x86_64-conda-linux-gnu
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'CMAKE_ARGS,-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'
-++++ echo 'CMAKE_ARGS,-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CMAKE_ARGS
-+++ '[' apply = apply ']'
-+++ eval 'oldval=$CMAKE_ARGS'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CMAKE_ARGS
-+++ '[' -n '-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release' ']'
-+++ eval export ''\''CMAKE_ARGS=-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'\'''
-++++ export 'CMAKE_ARGS=-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'
-++++ CMAKE_ARGS='-DCMAKE_AR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release'
-+++ return 0
-+++ unset _CMAKE_ARGS
-+++ '[' '' = 1 ']'
-+++ '[' 0 -ne 0 ']'
-+++ '[' 0 = 1 ']'
-++ . /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/activate-gxx_linux-64.sh
-+++ '[' 0 = 1 ']'
-+++ CXXFLAGS_USED='-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ DEBUG_CXXFLAGS_USED='-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ '[' 0 = 1 ']'
-+++ _tc_activation activate x86_64-conda-linux-gnu- c++ g++ 'CXXFLAGS,-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' 'DEBUG_CXXFLAGS,-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' CXX_FOR_BUILD,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-+++ local act_nature=activate
-+++ shift
-+++ local tc_prefix=x86_64-conda-linux-gnu-
-+++ shift
-+++ local thing
-+++ local newval
-+++ local from
-+++ local to
-+++ local pass
-+++ '[' activate = activate ']'
-+++ from=
-+++ to=CONDA_BACKUP_
-+++ for pass in check apply
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++ -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-g++
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-g++ -a check = check ']'
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'CXXFLAGS,-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'CXXFLAGS,-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CXXFLAGS
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'DEBUG_CXXFLAGS,-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'DEBUG_CXXFLAGS,-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=DEBUG_CXXFLAGS
-+++ '[' check = apply ']'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo CXX_FOR_BUILD,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-++++ echo CXX_FOR_BUILD,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CXX_FOR_BUILD
-+++ '[' check = apply ']'
-+++ for pass in check apply
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++ -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo c++
-++++ tr a-z+- A-ZX_
-+++ thing=CXX
-+++ eval 'oldval=$CXX'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CXX
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++ ']'
-+++ eval export ''\''CXX=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++'\'''
-++++ export CXX=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-++++ CXX=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-+++ for thing in "$@"
-+++ case "${thing}" in
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-g++
-+++ '[' '!' -x /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-g++ -a apply = check ']'
-+++ '[' apply = apply ']'
-++++ echo g++
-++++ tr a-z+- A-ZX_
-+++ thing=GXX
-+++ eval 'oldval=$GXX'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_GXX
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-g++ ']'
-+++ eval export ''\''GXX=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-g++'\'''
-++++ export GXX=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-g++
-++++ GXX=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-g++
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'CXXFLAGS,-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'CXXFLAGS,-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CXXFLAGS
-+++ '[' apply = apply ']'
-++++ echo CXXFLAGS
-++++ tr a-z+- A-ZX_
-+++ thing=CXXFLAGS
-+++ eval 'oldval=$CXXFLAGS'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CXXFLAGS
-+++ '[' -n '-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' ']'
-+++ eval export ''\''CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'\'''
-++++ export 'CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ CXXFLAGS='-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo 'DEBUG_CXXFLAGS,-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval='-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ echo 'DEBUG_CXXFLAGS,-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=DEBUG_CXXFLAGS
-+++ '[' apply = apply ']'
-++++ echo DEBUG_CXXFLAGS
-++++ tr a-z+- A-ZX_
-+++ thing=DEBUG_CXXFLAGS
-+++ eval 'oldval=$DEBUG_CXXFLAGS'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_DEBUG_CXXFLAGS
-+++ '[' -n '-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include' ']'
-+++ eval export ''\''DEBUG_CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'\'''
-++++ export 'DEBUG_CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-++++ DEBUG_CXXFLAGS='-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include'
-+++ for thing in "$@"
-+++ case "${thing}" in
-++++ echo CXX_FOR_BUILD,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-++++ sed 's,^[^\,]*\,\(.*\),\1,'
-+++ newval=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-++++ echo CXX_FOR_BUILD,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-++++ sed 's,^\([^\,]*\)\,.*,\1,'
-+++ thing=CXX_FOR_BUILD
-+++ '[' apply = apply ']'
-++++ echo CXX_FOR_BUILD
-++++ tr a-z+- A-ZX_
-+++ thing=CXX_FOR_BUILD
-+++ eval 'oldval=$CXX_FOR_BUILD'
-++++ oldval=
-+++ '[' -n '' ']'
-+++ eval unset '${to}${thing}'
-++++ unset CONDA_BACKUP_CXX_FOR_BUILD
-+++ '[' -n /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++ ']'
-+++ eval export ''\''CXX_FOR_BUILD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++'\'''
-++++ export CXX_FOR_BUILD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-++++ CXX_FOR_BUILD=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++
-+++ return 0
-+++ '[' 0 -ne 0 ']'
-+++ '[' 0 = 1 ']'
-++ . /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/libglib_activate.sh
-+++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
-+++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
-+++ export GSETTINGS_SCHEMA_DIR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/share/glib-2.0/schemas
-+++ GSETTINGS_SCHEMA_DIR=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/share/glib-2.0/schemas
-++ . /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/etc/conda/activate.d/~cuda-nvcc_activate.sh
-+++ ERROR=false
-+++ [[ linux-64 == \l\i\n\u\x\-\6\4 ]]
-+++ targetsDir=targets/x86_64-linux
-+++ [[ linux-64 == \l\i\n\u\x\-\p\p\c\6\4\l\e ]]
-+++ [[ linux-64 == \l\i\n\u\x\-\a\a\r\c\h\6\4 ]]
-+++ CUDA_CFLAGS=
-+++ CUDA_LDFLAGS=
-+++ '[' 0 = 1 ']'
-+++ CUDA_CFLAGS=' -I/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/include'
-+++ CUDA_LDFLAGS=' -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib'
-+++ CUDA_LDFLAGS=' -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib/stubs'
-+++ export 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include  -I/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/include  -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib/stubs'
-+++ CFLAGS='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include  -I/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/include  -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib/stubs'
-+++ export 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include  -I/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/include  -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib/stubs'
-+++ CPPFLAGS='-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include  -I/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/include  -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib/stubs'
-+++ export 'CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include  -I/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/include  -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib/stubs'
-+++ CXXFLAGS='-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /users/r/d/rdsiegel/miniconda3/envs/MLFin_env/include  -I/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/include  -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib/stubs'
-+++ export 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib  -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib/stubs'
-+++ LDFLAGS='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -Wl,-rpath-link,/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/lib  -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib -L/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/targets/x86_64-linux/lib/stubs'
-+++ '[' -z x ']'
-+++ [[ ! -z '' ]]
-+++ NVCC_PREPEND_FLAGS=' -ccbin=/users/r/d/rdsiegel/miniconda3/envs/MLFin_env/bin/x86_64-conda-linux-gnu-c++'
-+++ export NVCC_PREPEND_FLAGS
-+++ [[ ! -z '' ]]
-+++ '[' 0 = 1 ']'
-+++ export NVCC_APPEND_FLAGS
-+++ false
-+ __conda_hashr
-+ '[' -n '' ']'
-+ '[' -n '' ']'
-+ hash -r
-+ python3.13 train_model2_vacc.py
-Opening Models and Datasets
-Loading Data:   0%|          | 0/2560 [00:00<?, ?it/s]Loading Data:   1%|          | 16/2560 [00:00<00:19, 131.32it/s]Loading Data:   1%|▏         | 32/2560 [00:00<00:20, 122.54it/s]Loading Data:   2%|▏         | 48/2560 [00:00<00:21, 114.37it/s]Loading Data:   2%|▎         | 64/2560 [00:00<00:23, 107.18it/s]Loading Data:   3%|▎         | 83/2560 [00:00<00:23, 103.98it/s]Loading Data:   4%|▍         | 107/2560 [00:00<00:17, 136.34it/s]Loading Data:   5%|▍         | 123/2560 [00:01<00:21, 114.31it/s]Loading Data:   5%|▌         | 139/2560 [00:01<00:25, 96.80it/s] Loading Data:   6%|▋         | 163/2560 [00:01<00:19, 125.36it/s]Loading Data:   7%|▋         | 179/2560 [00:01<00:26, 91.31it/s] Loading Data:   8%|▊         | 203/2560 [00:01<00:20, 117.75it/s]Loading Data:   9%|▉         | 226/2560 [00:02<00:24, 96.76it/s] Loading Data:  10%|▉         | 251/2560 [00:02<00:19, 121.47it/s]Loading Data:  11%|█         | 276/2560 [00:02<00:15, 144.99it/s]Loading Data:  12%|█▏        | 295/2560 [00:02<00:23, 96.73it/s] Loading Data:  12%|█▏        | 319/2560 [00:02<00:18, 119.46it/s]Loading Data:  13%|█▎        | 343/2560 [00:02<00:15, 141.82it/s]Loading Data:  14%|█▍        | 363/2560 [00:03<00:24, 91.44it/s] Loading Data:  15%|█▌        | 387/2560 [00:03<00:19, 113.75it/s]Loading Data:  16%|█▌        | 411/2560 [00:03<00:15, 135.82it/s]Loading Data:  17%|█▋        | 435/2560 [00:03<00:13, 156.42it/s]Loading Data:  18%|█▊        | 456/2560 [00:04<00:23, 88.90it/s] Loading Data:  19%|█▉        | 480/2560 [00:04<00:18, 110.60it/s]Loading Data:  20%|█▉        | 505/2560 [00:04<00:15, 133.46it/s]Loading Data:  21%|██        | 530/2560 [00:04<00:13, 155.04it/s]Loading Data:  22%|██▏       | 554/2560 [00:04<00:11, 173.19it/s]Loading Data:  22%|██▎       | 576/2560 [00:05<00:22, 86.69it/s] Loading Data:  23%|██▎       | 600/2560 [00:05<00:18, 107.63it/s]Loading Data:  24%|██▍       | 624/2560 [00:05<00:14, 129.19it/s]Loading Data:  25%|██▌       | 649/2560 [00:05<00:12, 150.94it/s]Loading Data:  26%|██▋       | 674/2560 [00:05<00:11, 170.36it/s]Loading Data:  27%|██▋       | 698/2560 [00:05<00:10, 186.17it/s]Loading Data:  28%|██▊       | 721/2560 [00:06<00:23, 79.05it/s] Loading Data:  29%|██▉       | 744/2560 [00:06<00:18, 97.77it/s]Loading Data:  30%|███       | 768/2560 [00:06<00:15, 119.09it/s]Loading Data:  31%|███       | 792/2560 [00:06<00:12, 140.25it/s]Loading Data:  32%|███▏      | 816/2560 [00:06<00:10, 160.33it/s]Loading Data:  33%|███▎      | 840/2560 [00:06<00:09, 177.97it/s]Loading Data:  34%|███▍      | 864/2560 [00:06<00:08, 192.65it/s]Loading Data:  35%|███▍      | 888/2560 [00:07<00:08, 204.54it/s]Loading Data:  36%|███▌      | 912/2560 [00:07<00:24, 65.94it/s] Loading Data:  37%|███▋      | 936/2560 [00:08<00:19, 84.26it/s]Loading Data:  38%|███▊      | 961/2560 [00:08<00:15, 105.40it/s]Loading Data:  38%|███▊      | 985/2560 [00:08<00:12, 126.34it/s]Loading Data:  39%|███▉      | 1009/2560 [00:08<00:10, 147.04it/s]Loading Data:  40%|████      | 1034/2560 [00:08<00:09, 167.00it/s]Loading Data:  41%|████▏     | 1058/2560 [00:08<00:08, 183.54it/s]Loading Data:  42%|████▏     | 1082/2560 [00:08<00:07, 197.17it/s]Loading Data:  43%|████▎     | 1106/2560 [00:08<00:07, 207.69it/s]Loading Data:  44%|████▍     | 1130/2560 [00:08<00:06, 216.31it/s]Loading Data:  45%|████▌     | 1154/2560 [00:09<00:23, 60.37it/s] Loading Data:  46%|████▌     | 1178/2560 [00:10<00:17, 77.78it/s]Loading Data:  47%|████▋     | 1203/2560 [00:10<00:13, 98.23it/s]Loading Data:  48%|████▊     | 1227/2560 [00:10<00:11, 119.07it/s]Loading Data:  49%|████▉     | 1251/2560 [00:10<00:09, 140.03it/s]Loading Data:  50%|████▉     | 1276/2560 [00:10<00:07, 160.54it/s]Loading Data:  51%|█████     | 1300/2560 [00:10<00:07, 177.98it/s]Loading Data:  52%|█████▏    | 1325/2560 [00:10<00:06, 193.22it/s]Loading Data:  53%|█████▎    | 1350/2560 [00:10<00:05, 205.47it/s]Loading Data:  54%|█████▎    | 1375/2560 [00:10<00:05, 214.94it/s]Loading Data:  55%|█████▍    | 1399/2560 [00:10<00:05, 220.95it/s]Loading Data:  56%|█████▌    | 1423/2560 [00:12<00:20, 55.58it/s] Loading Data:  57%|█████▋    | 1448/2560 [00:12<00:15, 72.62it/s]Loading Data:  58%|█████▊    | 1473/2560 [00:12<00:11, 92.19it/s]Loading Data:  59%|█████▊    | 1498/2560 [00:12<00:09, 113.34it/s]Loading Data:  59%|█████▉    | 1523/2560 [00:12<00:07, 134.79it/s]Loading Data:  60%|██████    | 1548/2560 [00:12<00:06, 155.31it/s]Loading Data:  61%|██████▏   | 1572/2560 [00:12<00:05, 172.84it/s]Loading Data:  62%|██████▏   | 1596/2560 [00:12<00:05, 188.19it/s]Loading Data:  63%|██████▎   | 1621/2560 [00:13<00:04, 201.67it/s]Loading Data:  64%|██████▍   | 1645/2560 [00:13<00:04, 211.61it/s]Loading Data:  65%|██████▌   | 1669/2560 [00:13<00:04, 219.18it/s]Loading Data:  66%|██████▌   | 1693/2560 [00:13<00:03, 223.86it/s]Loading Data:  67%|██████▋   | 1717/2560 [00:13<00:03, 228.21it/s]Loading Data:  68%|██████▊   | 1741/2560 [00:13<00:03, 231.51it/s]Loading Data:  69%|██████▉   | 1765/2560 [00:13<00:03, 233.02it/s]Loading Data:  70%|██████▉   | 1789/2560 [00:15<00:16, 46.83it/s] Loading Data:  71%|███████   | 1813/2560 [00:15<00:12, 61.68it/s]Loading Data:  72%|███████▏  | 1838/2560 [00:15<00:09, 80.03it/s]Loading Data:  73%|███████▎  | 1863/2560 [00:15<00:06, 100.52it/s]Loading Data:  74%|███████▍  | 1888/2560 [00:15<00:05, 122.14it/s]Loading Data:  75%|███████▍  | 1913/2560 [00:15<00:04, 143.55it/s]Loading Data:  76%|███████▌  | 1938/2560 [00:15<00:03, 163.40it/s]Loading Data:  77%|███████▋  | 1962/2560 [00:15<00:03, 180.10it/s]Loading Data:  78%|███████▊  | 1986/2560 [00:15<00:02, 193.83it/s]Loading Data:  79%|███████▊  | 2010/2560 [00:16<00:02, 204.81it/s]Loading Data:  79%|███████▉  | 2034/2560 [00:16<00:02, 213.57it/s]Loading Data:  80%|████████  | 2059/2560 [00:16<00:02, 221.10it/s]Loading Data:  81%|████████▏ | 2084/2560 [00:16<00:02, 226.65it/s]Loading Data:  82%|████████▏ | 2109/2560 [00:16<00:01, 230.50it/s]Loading Data:  83%|████████▎ | 2134/2560 [00:16<00:01, 233.24it/s]Loading Data:  84%|████████▍ | 2159/2560 [00:16<00:01, 235.49it/s]Loading Data:  85%|████████▌ | 2184/2560 [00:16<00:01, 236.97it/s]Loading Data:  86%|████████▋ | 2208/2560 [00:16<00:01, 235.32it/s]Loading Data:  87%|████████▋ | 2232/2560 [00:18<00:08, 37.35it/s] Loading Data:  88%|████████▊ | 2257/2560 [00:18<00:06, 50.34it/s]Loading Data:  89%|████████▉ | 2282/2560 [00:18<00:04, 66.28it/s]Loading Data:  90%|█████████ | 2307/2560 [00:19<00:02, 85.00it/s]Loading Data:  91%|█████████ | 2332/2560 [00:19<00:02, 105.55it/s]Loading Data:  92%|█████████▏| 2357/2560 [00:19<00:01, 127.00it/s]Loading Data:  93%|█████████▎| 2382/2560 [00:19<00:01, 148.18it/s]Loading Data:  94%|█████████▍| 2407/2560 [00:19<00:00, 167.92it/s]Loading Data:  95%|█████████▌| 2432/2560 [00:19<00:00, 185.18it/s]Loading Data:  96%|█████████▌| 2457/2560 [00:19<00:00, 199.43it/s]Loading Data:  97%|█████████▋| 2482/2560 [00:19<00:00, 210.79it/s]Loading Data:  98%|█████████▊| 2507/2560 [00:19<00:00, 218.53it/s]Loading Data:  99%|█████████▉| 2532/2560 [00:20<00:00, 223.62it/s]Loading Data: 100%|█████████▉| 2556/2560 [00:20<00:00, 226.85it/s]Loading Data: 100%|██████████| 2560/2560 [00:32<00:00, 226.85it/s]Loading Data: 100%|██████████| 2560/2560 [00:34<00:00, 74.87it/s] 
-/gpfs1/home/r/d/rdsiegel/ml_final_project/ideal_scripts/train_model2_vacc.py:58: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
-  checkpoint = torch.load(checkpoint_path, map_location=device)
-Initializing GPU Usage
-GPU Use: False
-Resuming from epoch 0, batch 1301
-Epochs:   0%|          | 0/50 [00:00<?, ?it/s]
-Batch Training:   0%|          | 0/458752 [00:00<?, ?it/s][A
-Batch Training:   0%|          | 200/458752 [02:04<79:22:13,  1.60it/s][A
-Batch Training:   0%|          | 400/458752 [04:51<95:11:26,  1.34it/s][A
-Batch Training:   0%|          | 600/458752 [07:45<102:18:35,  1.24it/s][A
-Batch Training:   0%|          | 800/458752 [10:38<105:14:56,  1.21it/s][A
-Batch Training:   0%|          | 1000/458752 [13:31<106:58:31,  1.19it/s][A
-Batch Training:   0%|          | 1200/458752 [16:16<106:13:07,  1.20it/s][A
-Batch Training:   0%|          | 1400/458752 [19:08<107:07:34,  1.19it/s][A
-Batch Training:   0%|          | 1600/458752 [21:58<107:19:26,  1.18it/s][A
-Batch Training:   0%|          | 1800/458752 [24:47<107:23:29,  1.18it/s][A
-Batch Training:   0%|          | 2000/458752 [27:34<106:47:37,  1.19it/s][A
-Batch Training:   0%|          | 2200/458752 [30:23<106:58:12,  1.19it/s][A
-Batch Training:   1%|          | 2400/458752 [33:08<106:06:30,  1.19it/s][A
-Batch Training:   1%|          | 2600/458752 [36:03<107:35:02,  1.18it/s][A
-Batch Training:   1%|          | 2800/458752 [38:59<108:37:54,  1.17it/s][A
-Batch Training:   1%|          | 3000/458752 [42:02<110:48:14,  1.14it/s][A
-Batch Training:   1%|          | 3200/458752 [45:04<112:02:54,  1.13it/s][A
-Batch Training:   1%|          | 3400/458752 [48:00<111:47:03,  1.13it/s][A
-Batch Training:   1%|          | 3600/458752 [51:04<113:08:15,  1.12it/s][A
-Batch Training:   1%|          | 3800/458752 [54:07<113:53:16,  1.11it/s][A
-Batch Training:   1%|          | 4000/458752 [57:11<114:32:51,  1.10it/s][A
-Batch Training:   1%|          | 4200/458752 [1:00:05<113:07:21,  1.12it/s][A
-Batch Training:   1%|          | 4400/458752 [1:03:07<113:36:34,  1.11it/s][A
-Batch Training:   1%|          | 4600/458752 [1:06:10<114:05:31,  1.11it/s][A
-Batch Training:   1%|          | 4800/458752 [1:09:12<114:12:30,  1.10it/s][A
-Batch Training:   1%|          | 5000/458752 [1:12:17<114:55:41,  1.10it/s][A
-Batch Training:   1%|          | 5200/458752 [1:15:15<114:07:03,  1.10it/s][A
-Batch Training:   1%|          | 5400/458752 [1:18:20<114:47:57,  1.10it/s][A
-Batch Training:   1%|          | 5600/458752 [1:21:27<115:33:33,  1.09it/s][A
-Batch Training:   1%|▏         | 5800/458752 [1:24:29<115:10:05,  1.09it/s][A
-Batch Training:   1%|▏         | 6000/458752 [1:27:24<113:38:21,  1.11it/s][A
-Batch Training:   1%|▏         | 6200/458752 [1:30:24<113:26:50,  1.11it/s][A
-Batch Training:   1%|▏         | 6400/458752 [1:33:29<114:15:04,  1.10it/s][A
-Batch Training:   1%|▏         | 6600/458752 [1:36:35<114:57:05,  1.09it/s][A
-Batch Training:   1%|▏         | 6800/458752 [1:39:34<114:17:27,  1.10it/s][A
-Batch Training:   2%|▏         | 7000/458752 [1:42:41<115:00:26,  1.09it/s][A
-Batch Training:   2%|▏         | 7200/458752 [1:45:37<113:42:40,  1.10it/s][A
-Batch Training:   2%|▏         | 7400/458752 [1:48:36<113:05:46,  1.11it/s][A
-Batch Training:   2%|▏         | 7600/458752 [1:51:39<113:32:31,  1.10it/s][A
-Batch Training:   2%|▏         | 7800/458752 [1:54:37<113:01:28,  1.11it/s][A
-Batch Training:   2%|▏         | 8000/458752 [1:57:44<114:11:20,  1.10it/s][A
-Batch Training:   2%|▏         | 8200/458752 [2:00:47<114:16:40,  1.10it/s][A
-Batch Training:   2%|▏         | 8400/458752 [2:03:54<114:55:29,  1.09it/s][A
-Batch Training:   2%|▏         | 8600/458752 [2:06:46<112:42:16,  1.11it/s][A
-Batch Training:   2%|▏         | 8800/458752 [2:09:45<112:24:06,  1.11it/s][A
-Batch Training:   2%|▏         | 9000/458752 [2:12:42<111:51:44,  1.12it/s][A
-Batch Training:   2%|▏         | 9200/458752 [2:15:43<112:09:45,  1.11it/s][A
-Batch Training:   2%|▏         | 9400/458752 [2:18:40<111:39:08,  1.12it/s][A
-Batch Training:   2%|▏         | 9600/458752 [2:21:43<112:16:17,  1.11it/s][A
-Batch Training:   2%|▏         | 9800/458752 [2:24:45<112:41:45,  1.11it/s][A
-Batch Training:   2%|▏         | 10000/458752 [2:27:48<113:06:16,  1.10it/s][A
-Batch Training:   2%|▏         | 10200/458752 [2:30:44<112:02:55,  1.11it/s][A
-Batch Training:   2%|▏         | 10400/458752 [2:33:47<112:35:09,  1.11it/s][A
-Batch Training:   2%|▏         | 10600/458752 [2:36:49<112:38:33,  1.11it/s][A
-Batch Training:   2%|▏         | 10800/458752 [2:39:40<110:50:10,  1.12it/s][A
-Batch Training:   2%|▏         | 11000/458752 [2:42:37<110:33:10,  1.13it/s][A
-Batch Training:   2%|▏         | 11200/458752 [2:45:34<110:13:18,  1.13it/s][A
-Batch Training:   2%|▏         | 11400/458752 [2:48:32<110:22:43,  1.13it/s][A
-Batch Training:   3%|▎         | 11600/458752 [2:51:27<109:44:41,  1.13it/s][A
-Batch Training:   3%|▎         | 11800/458752 [2:54:22<109:32:26,  1.13it/s][A
-Batch Training:   3%|▎         | 12000/458752 [2:57:19<109:28:52,  1.13it/s][A
-Batch Training:   3%|▎         | 12200/458752 [3:00:17<109:44:14,  1.13it/s][A
-Batch Training:   3%|▎         | 12400/458752 [3:03:08<108:36:31,  1.14it/s][A
-Batch Training:   3%|▎         | 12600/458752 [3:06:05<108:52:10,  1.14it/s][A
-Batch Training:   3%|▎         | 12800/458752 [3:08:58<108:25:24,  1.14it/s][A
-Batch Training:   3%|▎         | 13000/458752 [3:11:54<108:23:11,  1.14it/s][A
-Batch Training:   3%|▎         | 13200/458752 [3:14:52<108:56:33,  1.14it/s][A
-Batch Training:   3%|▎         | 13400/458752 [3:17:42<107:51:06,  1.15it/s][A
-Batch Training:   3%|▎         | 13600/458752 [3:20:38<107:58:48,  1.15it/s][A
-Batch Training:   3%|▎         | 13800/458752 [3:23:33<108:08:20,  1.14it/s][A
-Batch Training:   3%|▎         | 14000/458752 [3:26:33<108:59:44,  1.13it/s][A
-Batch Training:   3%|▎         | 14200/458752 [3:29:28<108:39:18,  1.14it/s][A
-Batch Training:   3%|▎         | 14400/458752 [3:32:28<109:17:45,  1.13it/s][A
-Batch Training:   3%|▎         | 14600/458752 [3:35:28<109:47:42,  1.12it/s][A
-Batch Training:   3%|▎         | 14800/458752 [3:38:24<109:25:43,  1.13it/s][A
-Batch Training:   3%|▎         | 15000/458752 [3:41:12<107:38:41,  1.15it/s][A
-Batch Training:   3%|▎         | 15200/458752 [3:44:06<107:30:42,  1.15it/s][A
-Batch Training:   3%|▎         | 15400/458752 [3:47:00<107:19:19,  1.15it/s][A
-Batch Training:   3%|▎         | 15600/458752 [3:49:54<107:07:27,  1.15it/s][A
-Batch Training:   3%|▎         | 15800/458752 [3:52:49<107:13:40,  1.15it/s][A
-Batch Training:   3%|▎         | 16000/458752 [3:55:39<106:22:45,  1.16it/s][A
-Batch Training:   4%|▎         | 16200/458752 [3:58:33<106:32:12,  1.15it/s][A
-Batch Training:   4%|▎         | 16400/458752 [4:01:29<107:03:59,  1.15it/s][A
-Batch Training:   4%|▎         | 16600/458752 [4:04:27<107:36:04,  1.14it/s][A
-Batch Training:   4%|▎         | 16800/458752 [4:07:26<108:16:28,  1.13it/s][A
-Batch Training:   4%|▎         | 17000/458752 [4:10:21<108:00:42,  1.14it/s][A
-Batch Training:   4%|▎         | 17200/458752 [4:13:21<108:43:50,  1.13it/s][A
-Batch Training:   4%|▍         | 17400/458752 [4:16:19<108:48:50,  1.13it/s][A
-Batch Training:   4%|▍         | 17600/458752 [4:19:10<107:33:56,  1.14it/s][A
-Batch Training:   4%|▍         | 17800/458752 [4:22:07<107:43:33,  1.14it/s][A
-Batch Training:   4%|▍         | 18000/458752 [4:25:04<107:52:32,  1.13it/s][A
-Batch Training:   4%|▍         | 18200/458752 [4:28:00<107:45:02,  1.14it/s][A
-Batch Training:   4%|▍         | 18400/458752 [4:30:54<107:19:16,  1.14it/s][A
-Batch Training:   4%|▍         | 18600/458752 [4:33:48<107:05:46,  1.14it/s][A
-Batch Training:   4%|▍         | 18800/458752 [4:36:42<106:45:27,  1.14it/s][A
-Batch Training:   4%|▍         | 19000/458752 [4:39:37<106:43:02,  1.14it/s][A
-Batch Training:   4%|▍         | 19200/458752 [4:42:33<107:01:09,  1.14it/s][A
-Batch Training:   4%|▍         | 19400/458752 [4:45:30<107:19:55,  1.14it/s][A
-Batch Training:   4%|▍         | 19600/458752 [4:48:29<107:44:16,  1.13it/s][A
-Batch Training:   4%|▍         | 19800/458752 [4:51:28<108:12:40,  1.13it/s][A
-Batch Training:   4%|▍         | 20000/458752 [4:54:28<108:38:46,  1.12it/s][A
-Batch Training:   4%|▍         | 20200/458752 [4:57:29<108:58:17,  1.12it/s][A
-Batch Training:   4%|▍         | 20400/458752 [5:00:29<109:10:53,  1.12it/s][A
-Batch Training:   4%|▍         | 20600/458752 [5:03:29<109:16:49,  1.11it/s][A
-Batch Training:   5%|▍         | 20800/458752 [5:06:30<109:30:58,  1.11it/s][A
-Batch Training:   5%|▍         | 21000/458752 [5:09:29<109:16:34,  1.11it/s][A
-Batch Training:   5%|▍         | 21200/458752 [5:12:29<109:06:50,  1.11it/s][A
-Batch Training:   5%|▍         | 21400/458752 [5:15:24<108:24:27,  1.12it/s][A
-Batch Training:   5%|▍         | 21600/458752 [5:18:18<107:29:32,  1.13it/s][A
-Batch Training:   5%|▍         | 21800/458752 [5:21:12<106:55:26,  1.14it/s][A
-Batch Training:   5%|▍         | 22000/458752 [5:24:11<107:21:45,  1.13it/s][A
-Batch Training:   5%|▍         | 22200/458752 [5:27:12<107:59:20,  1.12it/s][A
-Batch Training:   5%|▍         | 22400/458752 [5:30:11<108:04:48,  1.12it/s][A
-Batch Training:   5%|▍         | 22600/458752 [5:33:10<108:10:03,  1.12it/s][A
-Batch Training:   5%|▍         | 22800/458752 [5:36:10<108:22:47,  1.12it/s][A
-Batch Training:   5%|▌         | 23000/458752 [5:39:07<107:56:33,  1.12it/s][A
-Batch Training:   5%|▌         | 23200/458752 [5:42:01<107:05:51,  1.13it/s][A
-Batch Training:   5%|▌         | 23400/458752 [5:44:55<106:30:29,  1.14it/s][A
-Batch Training:   5%|▌         | 23600/458752 [5:47:49<106:02:03,  1.14it/s][A
-Batch Training:   5%|▌         | 23800/458752 [5:50:36<104:34:07,  1.16it/s][A
-Batch Training:   5%|▌         | 24000/458752 [5:53:29<104:27:10,  1.16it/s][A
-Batch Training:   5%|▌         | 24200/458752 [5:56:23<104:31:07,  1.15it/s][A
-Batch Training:   5%|▌         | 24400/458752 [5:59:18<104:56:16,  1.15it/s][A
-Batch Training:   5%|▌         | 24600/458752 [6:02:13<105:00:42,  1.15it/s][A
-Batch Training:   5%|▌         | 24800/458752 [6:05:06<104:47:45,  1.15it/s][A
-Batch Training:   5%|▌         | 25000/458752 [6:08:00<104:44:06,  1.15it/s][A
-Batch Training:   5%|▌         | 25200/458752 [6:10:53<104:32:55,  1.15it/s][A
-Batch Training:   6%|▌         | 25400/458752 [6:13:50<105:01:08,  1.15it/s][A
-Batch Training:   6%|▌         | 25600/458752 [6:16:43<104:44:17,  1.15it/s][A
-Batch Training:   6%|▌         | 25800/458752 [6:19:38<104:58:26,  1.15it/s][A
-Batch Training:   6%|▌         | 26000/458752 [6:22:33<104:57:39,  1.15it/s][A
-Batch Training:   6%|▌         | 26200/458752 [6:25:30<105:15:29,  1.14it/s][A
-Batch Training:   6%|▌         | 26400/458752 [6:28:25<105:11:54,  1.14it/s][A
-Batch Training:   6%|▌         | 26600/458752 [6:31:20<105:12:51,  1.14it/s][A
-Batch Training:   6%|▌         | 26800/458752 [6:34:16<105:07:23,  1.14it/s][A
-Batch Training:   6%|▌         | 27000/458752 [6:37:13<105:23:16,  1.14it/s][A
-Batch Training:   6%|▌         | 27200/458752 [6:40:08<105:15:40,  1.14it/s][A
-Batch Training:   6%|▌         | 27400/458752 [6:42:58<104:17:19,  1.15it/s][A
-Batch Training:   6%|▌         | 27600/458752 [6:45:53<104:23:37,  1.15it/s][A
-Batch Training:   6%|▌         | 27800/458752 [6:48:49<104:37:59,  1.14it/s][A
-Batch Training:   6%|▌         | 28000/458752 [6:51:44<104:32:56,  1.14it/s][A
-Batch Training:   6%|▌         | 28200/458752 [6:54:36<104:04:24,  1.15it/s][A
-Batch Training:   6%|▌         | 28400/458752 [6:57:31<104:07:54,  1.15it/s][A
-Batch Training:   6%|▌         | 28600/458752 [7:00:27<104:23:51,  1.14it/s][A
-Batch Training:   6%|▋         | 28800/458752 [7:03:24<104:44:02,  1.14it/s][A
-Batch Training:   6%|▋         | 29000/458752 [7:06:21<104:59:45,  1.14it/s][A
-Batch Training:   6%|▋         | 29200/458752 [7:09:12<104:08:10,  1.15it/s][A
-Batch Training:   6%|▋         | 29400/458752 [7:12:03<103:26:39,  1.15it/s][A
-Batch Training:   6%|▋         | 29600/458752 [7:14:54<102:53:18,  1.16it/s][A
-Batch Training:   6%|▋         | 29800/458752 [7:17:47<102:53:27,  1.16it/s][A
-Batch Training:   7%|▋         | 30000/458752 [7:20:40<102:56:54,  1.16it/s][A
-Batch Training:   7%|▋         | 30200/458752 [7:23:34<103:08:58,  1.15it/s][A
-Batch Training:   7%|▋         | 30400/458752 [7:26:27<103:01:23,  1.15it/s][A
-Batch Training:   7%|▋         | 30600/458752 [7:29:20<102:55:26,  1.16it/s][A
-Batch Training:   7%|▋         | 30800/458752 [7:32:14<103:06:04,  1.15it/s][A
-Batch Training:   7%|▋         | 31000/458752 [7:35:07<103:00:15,  1.15it/s][A
-Batch Training:   7%|▋         | 31200/458752 [7:38:06<103:53:47,  1.14it/s][A
-Batch Training:   7%|▋         | 31400/458752 [7:40:59<103:23:09,  1.15it/s][A
-Batch Training:   7%|▋         | 31600/458752 [7:43:51<102:58:50,  1.15it/s][A
-Batch Training:   7%|▋         | 31800/458752 [7:46:41<102:22:42,  1.16it/s][A
-Batch Training:   7%|▋         | 32000/458752 [7:49:32<102:03:48,  1.16it/s][A
-Batch Training:   7%|▋         | 32200/458752 [7:52:22<101:30:02,  1.17it/s][A
-Batch Training:   7%|▋         | 32400/458752 [7:55:12<101:20:04,  1.17it/s][A
-Batch Training:   7%|▋         | 32600/458752 [7:58:01<100:49:50,  1.17it/s][A
-Batch Training:   7%|▋         | 32800/458752 [8:00:52<100:54:32,  1.17it/s][A
-Batch Training:   7%|▋         | 33000/458752 [8:03:41<100:41:00,  1.17it/s][A
-Batch Training:   7%|▋         | 33200/458752 [8:06:35<101:08:51,  1.17it/s][A
-Batch Training:   7%|▋         | 33400/458752 [8:09:26<101:08:33,  1.17it/s][A
-Batch Training:   7%|▋         | 33600/458752 [8:12:15<100:41:27,  1.17it/s][A
-Batch Training:   7%|▋         | 33800/458752 [8:15:04<100:24:57,  1.18it/s][A
-Batch Training:   7%|▋         | 34000/458752 [8:17:58<100:59:03,  1.17it/s][A
-Batch Training:   7%|▋         | 34200/458752 [8:20:51<101:21:28,  1.16it/s][A
-Batch Training:   7%|▋         | 34400/458752 [8:23:46<101:49:41,  1.16it/s][A
-Batch Training:   8%|▊         | 34600/458752 [8:26:41<102:04:43,  1.15it/s][A
-Batch Training:   8%|▊         | 34800/458752 [8:29:31<101:33:47,  1.16it/s][A
-Batch Training:   8%|▊         | 35000/458752 [8:32:20<100:49:29,  1.17it/s][A
-Batch Training:   8%|▊         | 35200/458752 [8:35:10<100:39:37,  1.17it/s][A
-Batch Training:   8%|▊         | 35400/458752 [8:38:00<100:22:03,  1.17it/s][A
-Batch Training:   8%|▊         | 35600/458752 [8:40:52<100:31:55,  1.17it/s][A
-Batch Training:   8%|▊         | 35800/458752 [8:43:43<100:29:52,  1.17it/s][A
-Batch Training:   8%|▊         | 36000/458752 [8:46:36<100:45:03,  1.17it/s][A
-Batch Training:   8%|▊         | 36200/458752 [8:49:27<100:40:04,  1.17it/s][A
-Batch Training:   8%|▊         | 36400/458752 [8:52:19<100:38:38,  1.17it/s][A
-Batch Training:   8%|▊         | 36600/458752 [8:55:10<100:28:43,  1.17it/s][A
-Batch Training:   8%|▊         | 36800/458752 [8:58:01<100:24:27,  1.17it/s][A
-Batch Training:   8%|▊         | 37000/458752 [9:00:51<100:09:05,  1.17it/s][A
-Batch Training:   8%|▊         | 37200/458752 [9:03:42<100:08:08,  1.17it/s][A
-Batch Training:   8%|▊         | 37400/458752 [9:06:34<100:07:20,  1.17it/s][A
-Batch Training:   8%|▊         | 37600/458752 [9:09:23<99:49:25,  1.17it/s] [A
-Batch Training:   8%|▊         | 37800/458752 [9:12:20<100:45:06,  1.16it/s][A
-Batch Training:   8%|▊         | 38000/458752 [9:15:16<101:22:18,  1.15it/s][A
-Batch Training:   8%|▊         | 38200/458752 [9:18:11<101:39:53,  1.15it/s][A
-Batch Training:   8%|▊         | 38400/458752 [9:21:06<101:43:38,  1.15it/s][A
-Batch Training:   8%|▊         | 38600/458752 [9:24:01<101:49:53,  1.15it/s][A
-Batch Training:   8%|▊         | 38800/458752 [9:26:56<101:48:12,  1.15it/s][A
-Batch Training:   9%|▊         | 39000/458752 [9:29:50<101:46:22,  1.15it/s][A
-Batch Training:   9%|▊         | 39200/458752 [9:32:43<101:25:39,  1.15it/s][A
-Batch Training:   9%|▊         | 39400/458752 [9:35:35<101:00:12,  1.15it/s][A
-Batch Training:   9%|▊         | 39600/458752 [9:38:25<100:22:48,  1.16it/s][A
-Batch Training:   9%|▊         | 39800/458752 [9:41:22<101:04:36,  1.15it/s][A
-Batch Training:   9%|▊         | 40000/458752 [9:44:23<102:20:39,  1.14it/s][A
-Batch Training:   9%|▉         | 40200/458752 [9:47:27<103:43:48,  1.12it/s][A
-Batch Training:   9%|▉         | 40400/458752 [9:50:25<103:32:46,  1.12it/s][A
-Batch Training:   9%|▉         | 40600/458752 [9:53:23<103:31:35,  1.12it/s][A
-Batch Training:   9%|▉         | 40800/458752 [9:56:20<103:08:26,  1.13it/s][A
-Batch Training:   9%|▉         | 41000/458752 [9:59:15<102:42:19,  1.13it/s][A
-Batch Training:   9%|▉         | 41200/458752 [10:02:10<102:18:28,  1.13it/s][A
-Batch Training:   9%|▉         | 41400/458752 [10:05:06<102:08:29,  1.14it/s][A
-Batch Training:   9%|▉         | 41600/458752 [10:08:02<102:04:05,  1.14it/s][A
-Batch Training:   9%|▉         | 41800/458752 [10:10:57<101:54:40,  1.14it/s][A
-Batch Training:   9%|▉         | 42000/458752 [10:13:54<101:52:29,  1.14it/s][A
-Batch Training:   9%|▉         | 42200/458752 [10:16:51<102:06:22,  1.13it/s][A
-Batch Training:   9%|▉         | 42400/458752 [10:19:47<101:55:57,  1.13it/s][A
-Batch Training:   9%|▉         | 42600/458752 [10:22:41<101:26:20,  1.14it/s][A
-Batch Training:   9%|▉         | 42800/458752 [10:25:35<101:16:00,  1.14it/s][A
-Batch Training:   9%|▉         | 43000/458752 [10:28:29<100:58:31,  1.14it/s][A
-Batch Training:   9%|▉         | 43200/458752 [10:31:20<100:15:54,  1.15it/s][A
-Batch Training:   9%|▉         | 43400/458752 [10:34:07<98:56:36,  1.17it/s] [A
-Batch Training:  10%|▉         | 43600/458752 [10:36:52<97:44:32,  1.18it/s][A
-Batch Training:  10%|▉         | 43800/458752 [10:39:37<97:00:28,  1.19it/s][A
-Batch Training:  10%|▉         | 44000/458752 [10:42:25<96:52:29,  1.19it/s][A
-Batch Training:  10%|▉         | 44200/458752 [10:45:17<97:26:14,  1.18it/s][A
-Batch Training:  10%|▉         | 44400/458752 [10:48:09<97:54:06,  1.18it/s][A
-Batch Training:  10%|▉         | 44600/458752 [10:51:01<98:10:55,  1.17it/s][A
-Batch Training:  10%|▉         | 44800/458752 [10:53:50<97:48:02,  1.18it/s][A
-Batch Training:  10%|▉         | 45000/458752 [10:56:32<96:26:04,  1.19it/s][A
-Batch Training:  10%|▉         | 45200/458752 [10:59:19<96:16:38,  1.19it/s][A
-Batch Training:  10%|▉         | 45400/458752 [11:02:07<96:13:47,  1.19it/s][A
-Batch Training:  10%|▉         | 45600/458752 [11:04:55<96:12:30,  1.19it/s][A
-Batch Training:  10%|▉         | 45800/458752 [11:07:44<96:24:50,  1.19it/s][A
-Batch Training:  10%|█         | 46000/458752 [11:10:26<95:21:01,  1.20it/s][A
-Batch Training:  10%|█         | 46200/458752 [11:13:13<95:23:06,  1.20it/s][A
-Batch Training:  10%|█         | 46400/458752 [11:15:59<95:19:57,  1.20it/s][A
-Batch Training:  10%|█         | 46600/458752 [11:18:42<94:35:46,  1.21it/s][A
-Batch Training:  10%|█         | 46800/458752 [11:21:23<93:57:55,  1.22it/s][A
-Batch Training:  10%|█         | 47000/458752 [11:24:04<93:16:14,  1.23it/s][A
-Batch Training:  10%|█         | 47200/458752 [11:26:46<93:00:28,  1.23it/s][A
-Batch Training:  10%|█         | 47400/458752 [11:29:22<91:50:58,  1.24it/s][A
-Batch Training:  10%|█         | 47600/458752 [11:32:02<91:45:03,  1.24it/s][A
-Batch Training:  10%|█         | 47800/458752 [11:34:45<92:00:31,  1.24it/s][A
-Batch Training:  10%|█         | 48000/458752 [11:37:28<92:15:14,  1.24it/s][A
-Batch Training:  11%|█         | 48200/458752 [11:40:11<92:25:13,  1.23it/s][A
-Batch Training:  11%|█         | 48400/458752 [11:42:55<92:40:42,  1.23it/s][A
-Batch Training:  11%|█         | 48600/458752 [11:45:38<92:45:23,  1.23it/s][A
-Batch Training:  11%|█         | 48800/458752 [11:48:22<92:51:52,  1.23it/s][A
-Batch Training:  11%|█         | 49000/458752 [11:51:05<92:56:10,  1.22it/s][A
-Batch Training:  11%|█         | 49200/458752 [11:53:43<91:55:01,  1.24it/s][A
-Batch Training:  11%|█         | 49400/458752 [11:56:28<92:32:14,  1.23it/s][A
-Batch Training:  11%|█         | 49600/458752 [11:59:13<92:44:23,  1.23it/s][A
